@@ -20,7 +20,7 @@ p {
   height: 500px;
   position: relative;
   overflow: hidden;
-  background-color: #183534;
+  background-color: #48466f;
 }
 
 .section:nth-child(even) {
@@ -28,18 +28,19 @@ p {
 }
 
 .section--parallax {
-  background-color: #fffef6;
+  //background-color: #fffef6;
+  background: linear-gradient(#6bc9cb, #a6dacf 55%);
   height: 100vh;
   width: 100%;
 }
 
 #parallax-1 .section__content {
-  top: 30%;
+  top: 20%;
 }
 
 #parallax-1 h1 {
   line-height: 1em;
-  color: #3c6864;
+  color: #fff;
   text-shadow: none;
 }
 
@@ -55,38 +56,45 @@ p {
 }
 
 .layer-1 {
-  background: url(../images/layer-1.svg);
+  background: url(../images/image-1.svg);
   height: 100%;
   z-index: 5;
   bottom: -50px;
 }
 
 .layer-2 {
-  background: url(../images/layer-2.svg);
+  background: url(../images/image-2.svg);
   height: 100%;
   z-index: 4;
-  bottom: 25%;
+  bottom: 15%;
 }
 
 .layer-3 {
-  background: url(../images/layer-3.svg);
+  background: url(../images/image-3.svg);
   height: 100%;
   z-index: 3;
-  bottom: 37.5%;
+  bottom: 25%;
 }
 
 .layer-4 {
-  background: url(../images/layer-4.svg);
+  background: url(../images/image-4.svg);
   height: 100%;
   z-index: 2;
-  bottom: 55%;
+  bottom: 30%;
 }
 
 .layer-5 {
-  background: url(../images/layer-5.svg);
+  background: url(../images/image-5.svg);
   height: 100%;
   z-index: 1;
-  bottom: 160%;
+  bottom: 50%;
+}
+
+.layer-6 {
+  background: url(../images/image-6.svg);
+  height: 100%;
+  z-index: 0;
+  bottom: 140%;
   background-size: 90% !important;
 }
 
