@@ -1,0 +1,103 @@
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: heebo;
+  margin-bottom: 8px;
+  line-height: 1em;
+  font-size: 48px;
+}
+
+p {
+  font-family: Roboto Slab;
+  margin: 8px 0;
+  font-size: 24px;
+}
+
+.section {
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  background-color: #183534;
+}
+
+.section:nth-child(even) {
+  text-align: right;
+}
+
+.section--parallax {
+  background-color: #fffef6;
+  height: 100vh;
+  width: 100%;
+}
+
+#parallax-1 .section__content {
+  top: 30%;
+}
+
+#parallax-1 h1 {
+  line-height: 1em;
+  color: #3c6864;
+  text-shadow: none;
+}
+
+
+
+.section__image {
+  background-size: 105% auto !important;
+  background-position: bottom !important;
+  background-repeat: no-repeat !important;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.layer-1 {
+  background: url(../images/layer-1.svg);
+  height: 100%;
+  z-index: 5;
+  bottom: -50px;
+}
+
+.layer-2 {
+  background: url(../images/layer-2.svg);
+  height: 100%;
+  z-index: 4;
+  bottom: 25%;
+}
+
+.layer-3 {
+  background: url(../images/layer-3.svg);
+  height: 100%;
+  z-index: 3;
+  bottom: 37.5%;
+}
+
+.layer-4 {
+  background: url(../images/layer-4.svg);
+  height: 100%;
+  z-index: 2;
+  bottom: 55%;
+}
+
+.layer-5 {
+  background: url(../images/layer-5.svg);
+  height: 100%;
+  z-index: 1;
+  bottom: 160%;
+  background-size: 90% !important;
+}
+
+.section__content {
+  max-width: 800px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 0 1em;
+  color: #fff;
+  //text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+}
